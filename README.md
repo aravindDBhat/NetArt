@@ -10,4 +10,4 @@ Responsive webpage design using React and CSS Flex
 ```
 # Live webpage
 
-- [live](https://remarkable-starlight-c89b80.netlify.app/)
+- [live](https://stellular-toffee-4eff50.netlify.app/)
