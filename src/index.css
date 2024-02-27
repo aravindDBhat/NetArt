@@ -1,13 +1,110 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+.App {
+  background: linear-gradient(to bottom, #fefde2, #fefbad);
+  width: 100%;
+  padding: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.headder {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.headder img {
+  height: 150px;
+  width: 400px;
+  object-fit: fill;
+}
+
+.awards {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+.awards .trophy img {
+  height: 550px;
+  width: 300px;
+  object-fit: fill;
+  text-align: left;
+  justify-content: left;
+  align-items: start;
+}
+.awards .awardImage {
+  width: 700px;
+}
+.awards .awardImage dt {
+  font-size: 15px;
+  font-weight: 1000;
+  text-align: justify;
+}
+ul {
+  text-align: justify;
+}
+.awards .awardImage img {
+  height: 400px;
+  width: 700px;
+  object-fit: fill;
+  text-align: center;
+  align-items: center;
+}
+.awards .awardImage p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.pumpImage {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.pumpImage .p1 {
+  font-size: 13px;
+  font-weight: 700;
+}
+.pumpImage img {
+  height: 300px;
+  width: 70%;
+  object-fit: fill;
+}
+.pumpImage .p2 {
+  font-size: 13px;
+}
+hr {
+  height: 0.5px;
+  width: 95%;
+  background-color: black;
+}
+
+.pumpImage .p4 {
+  font-size: 13px;
+  font-weight: 900;
+}
+.pumpImage .p3 {
+  font-size: 13px;
+  font-weight: 500;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ec3237;
+  padding: 20px 0 50px 0;
+}
+.footer i {
+  color: white;
+  margin-right: 10px;
+  font-size: 25px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
 }
