@@ -10,4 +10,4 @@ Responsive webpage design using React and CSS Flex
 ```
 # Live webpage
 
-- [live](https://writeease.vercel.app/)
+- [live](https://remarkable-starlight-c89b80.netlify.app/)
