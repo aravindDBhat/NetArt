@@ -68,6 +68,7 @@ ul {
   align-items: center;
 }
 .pumpImage .p1 {
+  padding: 10px 30px 0 30px;
   font-size: 13px;
   font-weight: 700;
 }
@@ -78,6 +79,7 @@ ul {
 }
 .pumpImage .p2 {
   font-size: 13px;
+  padding: 0px 30px 0 30px;
 }
 hr {
   height: 0.5px;
@@ -86,12 +88,14 @@ hr {
 }
 
 .pumpImage .p4 {
+  padding: 10px 30px 0 30px;
   font-size: 13px;
   font-weight: 900;
 }
 .pumpImage .p3 {
   font-size: 13px;
   font-weight: 500;
+  padding: 10px 30px 0 30px;
 }
 .footer {
   display: flex;
